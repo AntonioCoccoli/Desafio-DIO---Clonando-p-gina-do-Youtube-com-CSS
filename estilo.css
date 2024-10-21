@@ -1,3 +1,85 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 24px 0 24px;
+}
+
+.left{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .menu{
-    
+    width: 24px;
+    height: 24px;
+    margin-left: -2vw;
+}
+
+.youtube{
+    width: 90px;
+    height: 20px;
+    margin-left: -2vw;
+}
+
+.center{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.busca-grande{
+    border: 1px solid #ccc;
+    width: 20vw;
+    height: 4vh;
+}
+
+.busca-pequeno{
+    width: 3vw;
+    height: 4vh;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa{
+    width: 24px;
+    height: 24px;
+}
+
+.right{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera{
+    width: 24px;
+    height: 24px;
+}
+
+.sino{
+    width: 24px;
+    height: 24px;
+}
+
+.avatar-prof{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 2vw;
 }
