@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     margin: 0;
 }
@@ -19,13 +21,13 @@ header{
     justify-content: flex-start;
 }
 
-.menu{
+.left .menu{
     width: 24px;
     height: 24px;
     margin-left: -2vw;
 }
 
-.youtube{
+.left .youtube{
     width: 90px;
     height: 20px;
     margin-left: -2vw;
@@ -39,13 +41,13 @@ header{
     align-items: center;
 }
 
-.busca-grande{
+.center .busca-grande{
     border: 1px solid #ccc;
     width: 20vw;
     height: 4vh;
 }
 
-.busca-pequeno{
+.center .busca-pequeno{
     width: 3vw;
     height: 4vh;
     border: 1px solid #ccc;
@@ -54,7 +56,7 @@ header{
     align-items: center;
 }
 
-.lupa{
+.center .busca-pequeno .lupa{
     width: 24px;
     height: 24px;
 }
@@ -63,23 +65,63 @@ header{
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.camera{
+.right .camera{
     width: 24px;
     height: 24px;
 }
 
-.sino{
+.right .sino{
     width: 24px;
     height: 24px;
 }
 
-.avatar-prof{
+.right .avatar-prof{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 2vw;
+}
+
+main{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    position: relative;
+}
+
+main .imagem-principal{
+    width: 932px;
+    height: 537px;
+    position: relative;
+}
+
+main h2{
+    width: 900px;
+    height: 23px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44;
+    margin-top: 10px;
+    position: absolute;
+    top: 380px;
+    left: 38px;
+}
+
+.video-Actions{
+    width: 902px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 42px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
 }
