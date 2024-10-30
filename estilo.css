@@ -167,7 +167,7 @@ main h2{
     width: 159px;
     height: 40px;
     border-radius: 2px;
-    margin: 55px 0 0 80px;
+    margin: 55px 0 0 50px;
 }
 
 .subscribe-button button{
@@ -196,7 +196,7 @@ main h2{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 52px 0 0 0;
+    margin: 52px 0 0 -32px;
 }
 
 .like img{
@@ -222,7 +222,7 @@ main h2{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 57px 0 0 -25px;
+    margin: 57px 0 0 -55px;
 }
 
 .deslike img{
@@ -239,5 +239,57 @@ main h2{
     line-height: 16.41px;
     color: #000;
     margin: 0 0 10px -28px;
+}
+
+.share{
+    width: 115px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 52px 0 0 -85px;
+}
+
+.share img{
+    width: 24px;
+    height: 24px;
+}
+
+.share p{
+    width: 83px;
+    height: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    margin: 0 0 7px -35px;
+}
+
+.download{
+    width: 95px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 51px 0 0 0;
+}
+
+.download img{
+    width: 24px;
+    height: 24px;
+}
+
+.download p{
+    width: 63px;
+    height: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    margin: 0 0 5px -25px;
 }
 
