@@ -333,5 +333,136 @@ main h2{
     flex-direction: column;
     justify-content: flex-end;
     align-content: center;
-    margin: 310px 0 0 1200px;
+    row-gap: 16px;
+    margin: -900px 0 0 1200px;
+}
+
+.anuncio-1{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-1 img{
+    width: 190px;
+    height: 90px;
+}
+
+.geracao{
+    width: 196px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.geracao .titulo{
+    width: 196px;
+    height: 32px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    margin-left: -5px;
+}
+
+.geracao .marca{
+    width: 196px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+    margin-top: -3px;
+    margin-left: -3px;
+}
+
+.geracao .texto{
+    width: 176px;
+    height: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+    margin-top: -4px;
+    margin-left: -3px;
+}
+
+.anuncio-2{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-3{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-4{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-5{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-6{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-7{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-8{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.anuncio-9{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
 }
