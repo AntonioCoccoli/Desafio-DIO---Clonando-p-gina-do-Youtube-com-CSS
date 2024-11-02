@@ -752,6 +752,55 @@ main h2{
     align-content: center;
 }
 
+.anuncio-8 img{
+    width: 190px;
+    height: 90px
+}
+
+.machine2{
+    width: 196px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.machine2 .titulo{
+    width: 196px;
+    height: 32px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    margin-left: -4px;
+}
+
+.machine2 .marca{
+    width: 196px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+    margin-top: -3px;
+    margin-left: -4px;
+}
+
+.machine2 .texto{
+    width: 176px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+    margin-top: -3px;
+    margin-left: -4px;
+}
+
 .anuncio-9{
     width: 160px;
     height: 90px;
@@ -759,4 +808,53 @@ main h2{
     flex-direction: row;
     justify-content: flex-start;
     align-content: center;
+}
+
+.anuncio-9 img{
+    width: 190px;
+    height: 90px
+}
+
+.global2{
+    width: 196px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.global2 .titulo{
+    width: 196px;
+    height: 32px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    margin-left: -4px;
+}
+
+.global2 .marca{
+    width: 196px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+    margin-top: -3px;
+    margin-left: -4px;
+}
+
+.global2 .texto{
+    width: 156px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+    margin-top: -3px;
+    margin-left: -4px;
 }
